@@ -1,0 +1,22 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "My portfolio",
+	"main": "assets/main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vix-4800/vix-4800.github.io.git"
+	},
+	"keywords": [
+		"portfolio"
+	],
+	"author": "VIX",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vix-4800/vix-4800.github.io/issues"
+	},
+	"homepage": "https://github.com/vix-4800/vix-4800.github.io#readme"
+}
