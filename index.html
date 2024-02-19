@@ -10,12 +10,10 @@
 	</title>
 
 	<link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
-
-	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-	<nav class="bg-white border-gray-200 dark:bg-gray-900">
+	<nav class="bg-white shadow dark:shadow-gray-800 dark:bg-gray-900">
 		<div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
 			<a href="https://github.com/vix-4800" class="flex items-center space-x-3 rtl:space-x-reverse">
 				<img src="./assets/images/logo/favicon-32x32.png" class="h-8" alt="Github profile photo" />
@@ -39,13 +37,6 @@
 				<ul
 					class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
 					<li>
-						<a href="#"
-							class="block px-3 py-2 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-							aria-current="page">
-							Home
-						</a>
-					</li>
-					<li>
 						<a href="#about"
 							class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
 							About me
@@ -68,87 +59,205 @@
 		</div>
 	</nav>
 
-	<section id="about">
-
-	</section>
-
-	<section id="projects">
-		<div class="w-full max-w-screen-xl mx-auto">
-			<div class="grid grid-cols-3 gap-4">
-				<div
-					class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-					<img class="rounded-t-lg" src="./assets/images/projects/task_ease.png" alt="Project Image" />
-					<div class="p-5">
-						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-							TaskEase
-						</h5>
-						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-							TaskEase is a simple and user-friendly Laravel application for hassle-free task management.
+	<main>
+		<section id="about" class="my-8">
+			<div class="container w-full max-w-screen-xl mx-auto">
+				<div class="mb-8 ">
+					<h1 class="mb-4 text-3xl font-bold">
+						About Me
+					</h1>
+					<div>
+						<p class="leading-relaxed text-gray-700">
+							Hi, I'm Anton! A passionate full-stack developer and Information Systems student.
 						</p>
-						<a href="https://github.com/vix-4800/TaskEase"
-							class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-							GitHub Repository
-							<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-									stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-							</svg>
-						</a>
+						<p class="leading-relaxed text-gray-700">
+							I specialize in building web applications with a focus on PHP and the Laravel framework. My
+							journey
+							involves continuous learning and exploring new technologies.
+						</p>
 					</div>
 				</div>
 
-				<div
-					class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-					<img class="rounded-t-lg" src="./assets/images/projects/wealth_guardian.png" alt="Project Image" />
-					<div class="p-5">
-						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-							Wealth Guardian
-						</h5>
-						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-							A straightforward and user-friendly personal finance tracker app built on the Laravel.
-						</p>
-						<a href="https://github.com/vix-4800/WealthGuardian"
-							class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-							GitHub Repository
-							<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-									stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-							</svg>
-						</a>
-					</div>
+				<div>
+					<h1 class="mb-6 text-3xl font-bold">
+						My Stack
+					</h1>
+					<ul class="ml-6 text-gray-700 list-disc">
+						<li>
+							<span class="font-semibold text-gray-900">
+								PHP
+							</span>
+							(Laravel, Symfony)
+						</li>
+						<li>
+							<span class="font-semibold text-gray-900">
+								JavaScript
+							</span>
+						</li>
+						<li>
+							<span class="font-semibold text-gray-900">
+								HTML5 & CSS3
+							</span>
+							(Tailwind CSS, Bootstrap)
+						</li>
+						<li>
+							<span class="font-semibold text-gray-900">
+								Database Management
+							</span>
+							(MySQL)
+						</li>
+						<li>
+							<span class="font-semibold text-gray-900">
+								Version Control
+							</span>
+							(Git)
+						</li>
+						<li>
+							<span class="font-semibold text-gray-900">
+								Containerization
+							</span>
+							(Docker)
+						</li>
+					</ul>
 				</div>
+			</div>
+		</section>
 
-				<div
-					class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-					<img class="rounded-t-lg" src="./assets/images/projects/sellersphere.png" alt="Project Image" />
-					<div class="p-5">
-						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-							SellerSphere
-						</h5>
-						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-							An account management service powered by the Laravel framework.
-						</p>
-						<a href="https://lk.sellersphere.ru/"
-							class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-							Project Website
-							<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-									stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-							</svg>
-						</a>
+		<section id="projects" class="my-8">
+			<div class="container w-full max-w-screen-xl mx-auto">
+				<h1 class="mb-6 text-3xl font-bold">
+					My Projects
+				</h1>
+				<div class="flex justify-between">
+					<div
+						class="max-w-sm bg-white border border-gray-200 rounded-lg shadow shadow-md dark:bg-gray-800 dark:border-gray-700">
+						<img class="rounded-t-lg" src="./assets/images/projects/task_ease.png" alt="Project Image" />
+						<div class="p-5">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+								TaskEase
+							</h5>
+							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+								TaskEase is a simple and user-friendly Laravel application for hassle-free task
+								management.
+							</p>
+							<div class="mb-4">
+								<span
+									class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">
+									Educational
+								</span>
+								<span
+									class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-red-400 border border-red-400">
+									Laravel
+								</span>
+							</div>
+
+							<div>
+								<a href="./pages/projects/taskease.html"
+									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+									Learn More
+								</a>
+								<a href="https://github.com/vix-4800/TaskEase"
+									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+									GitHub Repository
+									<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+										xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+											stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div
+						class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+						<img class="rounded-t-lg" src="./assets/images/projects/wealth_guardian.png"
+							alt="Project Image" />
+						<div class="p-5">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+								Wealth Guardian
+							</h5>
+							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+								A straightforward and user-friendly personal finance tracker app built on the Laravel.
+							</p>
+							<div class="mb-4">
+								<span
+									class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">
+									Educational
+								</span>
+								<span
+									class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-red-400 border border-red-400">
+									Laravel
+								</span>
+							</div>
+							<div>
+								<a href="./pages/projects/wealthguardian.html"
+									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+									Learn More
+								</a>
+								<a href="https://github.com/vix-4800/WealthGuardian"
+									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+									GitHub Repository
+									<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+										xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+											stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div
+						class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+						<img class="rounded-t-lg" src="./assets/images/projects/sellersphere.png" alt="Project Image" />
+						<div class="p-5">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+								SellerSphere
+							</h5>
+							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+								An account management service powered by the Laravel framework.
+							</p>
+							<div class="mb-4">
+								<span
+									class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">
+									Commercial
+								</span>
+								<span
+									class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-red-400 border border-red-400">
+									Laravel
+								</span>
+							</div>
+
+							<div>
+								<a href="./pages/projects/sellersphere.html"
+									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+									Learn More
+								</a>
+								<a href="https://lk.sellersphere.ru/"
+									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+									Project Website
+									<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+										xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+											stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+									</svg>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<section id="contact">
+		<section id="contact">
 
-	</section>
+		</section>
+	</main>
 
-	<footer class="bg-white dark:bg-gray-900">
+
+
+	<footer class="bg-white shadow dark:bg-gray-900">
 		<div class="w-full max-w-screen-xl mx-auto">
 			<div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-2">
 				<div>
@@ -203,6 +312,8 @@
 			</div>
 		</div>
 	</footer>
+
+	<script src="https://cdn.tailwindcss.com"></script>
 </body>
 
 </html>
