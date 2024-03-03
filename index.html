@@ -13,249 +13,71 @@
 </head>
 
 <body>
-	<nav class="bg-white shadow dark:shadow-gray-800 dark:bg-gray-900">
-		<div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
-			<a href="https://github.com/vix-4800" class="flex items-center space-x-3 rtl:space-x-reverse">
-				<img src="./assets/images/logo/favicon-32x32.png" class="h-8" alt="Github profile photo" />
-				<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-					VIX
-				</span>
-			</a>
-			<button data-collapse-toggle="navbar-default" type="button"
-				class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-				aria-controls="navbar-default" aria-expanded="false">
-				<span class="sr-only">
-					Open main menu
-				</span>
-				<svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-					viewBox="0 0 17 14">
-					<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-						d="M1 1h15M1 7h15M1 13h15" />
+	<header class="z-30 flex items-center w-full h-24 bg-white sm:h-32 dark:bg-gray-800">
+		<div class="container flex items-center justify-between px-6 mx-auto">
+			<div class="flex items-center text-3xl font-black text-gray-800 uppercase dark:text-white">
+				<svg width="25" height="25" viewBox="0 0 1792 1792" fill="currentColor"
+					xmlns="http://www.w3.org/2000/svg">
+					<path
+						d="M1664 1504v-768q-32 36-69 66-268 206-426 338-51 43-83 67t-86.5 48.5-102.5 24.5h-2q-48 0-102.5-24.5t-86.5-48.5-83-67q-158-132-426-338-37-30-69-66v768q0 13 9.5 22.5t22.5 9.5h1472q13 0 22.5-9.5t9.5-22.5zm0-1051v-24.5l-.5-13-3-12.5-5.5-9-9-7.5-14-2.5h-1472q-13 0-22.5 9.5t-9.5 22.5q0 168 147 284 193 152 401 317 6 5 35 29.5t46 37.5 44.5 31.5 50.5 27.5 43 9h2q20 0 43-9t50.5-27.5 44.5-31.5 46-37.5 35-29.5q208-165 401-317 54-43 100.5-115.5t46.5-131.5zm128-37v1088q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-1088q0-66 47-113t113-47h1472q66 0 113 47t47 113z">
+					</path>
 				</svg>
-			</button>
-			<div class="hidden w-full md:block md:w-auto" id="navbar-default">
-				<ul
-					class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-					<li>
-						<a href="#about"
-							class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-							About me
-						</a>
-					</li>
-					<li>
-						<a href="#projects"
-							class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-							Projects
-						</a>
-					</li>
-					<li>
-						<a href="#contact"
-							class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-							Contact
-						</a>
-					</li>
-				</ul>
+				<span class="mt-1 ml-3 text-xs">
+					gordan.ei@protonmail.ch
+				</span>
+			</div>
+			<div class="flex items-center">
+				<nav class="items-center hidden text-lg text-gray-800 uppercase font-sen dark:text-white lg:flex">
+					<a href="./pages/projects.html" class="flex px-6 py-2 hover:text-black">
+						Projects
+					</a>
+					<a href="#" class="flex px-6 py-2 hover:text-black">
+						Resume
+					</a>
+					<a href="#" class="flex px-6 py-2 hover:text-black">
+						Contact
+					</a>
+				</nav>
+				<button class="flex flex-col ml-4 lg:hidden">
+					<span class="w-6 h-1 mb-1 bg-gray-800 dark:bg-white">
+						asd
+					</span>
+					<span class="w-6 h-1 mb-1 bg-gray-800 dark:bg-white">
+					</span>
+					<span class="w-6 h-1 mb-1 bg-gray-800 dark:bg-white">
+					</span>
+				</button>
 			</div>
 		</div>
-	</nav>
+	</header>
 
-	<main>
-		<section id="about" class="my-8">
-			<div class="container w-full max-w-screen-xl mx-auto">
-				<div class="mb-8 ">
-					<h1 class="mb-4 text-3xl font-bold">
-						About Me
-					</h1>
-					<div>
-						<p class="leading-relaxed text-gray-700">
-							Hi, I'm Anton! A passionate full-stack developer and Information Systems student.
-						</p>
-						<p class="leading-relaxed text-gray-700">
-							I specialize in building web applications with a focus on PHP and the Laravel framework. My
-							journey
-							involves continuous learning and exploring new technologies.
-						</p>
-					</div>
-				</div>
+	<main class="relative h-screen overflow-hidden font-mono bg-white dark:bg-gray-800">
+		<div class="relative z-20 flex items-center">
+			<div class="container relative flex flex-col items-center justify-between px-6 py-4 mx-auto">
+				<div class="flex flex-col">
+					<img src="./assets/images/logo/android-chrome-512x512.png" class="mx-auto rounded-full w-28" />
+					<p class="my-6 text-3xl text-center dark:text-white">
+						Hi, I'm Anton 🤘
+					</p>
+					<h2
+						class="max-w-3xl py-2 mx-auto text-5xl font-bold text-center text-gray-800 md:text-6xl dark:text-white">
+						A passionate full-stack developer.
+					</h2>
 
-				<div>
-					<h1 class="mb-6 text-3xl font-bold">
-						My Stack
-					</h1>
-					<ul class="ml-6 text-gray-700 list-disc">
-						<li>
-							<span class="font-semibold text-gray-900">
-								PHP
-							</span>
-							(Laravel, Symfony)
-						</li>
-						<li>
-							<span class="font-semibold text-gray-900">
-								JavaScript
-							</span>
-						</li>
-						<li>
-							<span class="font-semibold text-gray-900">
-								HTML5 & CSS3
-							</span>
-							(Tailwind CSS, Bootstrap)
-						</li>
-						<li>
-							<span class="font-semibold text-gray-900">
-								Database Management
-							</span>
-							(MySQL)
-						</li>
-						<li>
-							<span class="font-semibold text-gray-900">
-								Version Control
-							</span>
-							(Git)
-						</li>
-						<li>
-							<span class="font-semibold text-gray-900">
-								Containerization
-							</span>
-							(Docker)
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-
-		<section id="projects" class="my-8">
-			<div class="container w-full max-w-screen-xl mx-auto">
-				<h1 class="mb-6 text-3xl font-bold">
-					My Projects
-				</h1>
-				<div class="flex justify-between">
-					<div
-						class="max-w-sm bg-white border border-gray-200 rounded-lg shadow shadow-md dark:bg-gray-800 dark:border-gray-700">
-						<img class="rounded-t-lg" src="./assets/images/projects/task_ease.png" alt="Project Image" />
-						<div class="p-5">
-							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-								TaskEase
-							</h5>
-							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-								TaskEase is a simple and user-friendly Laravel application for hassle-free task
-								management.
-							</p>
-							<div class="mb-4">
-								<span
-									class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">
-									Educational
-								</span>
-								<span
-									class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-red-400 border border-red-400">
-									Laravel
-								</span>
-							</div>
-
-							<div>
-								<a href="./pages/projects/taskease.html"
-									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-									Learn More
-								</a>
-								<a href="https://github.com/vix-4800/TaskEase"
-									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-									GitHub Repository
-									<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-										xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-											stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-									</svg>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<div
-						class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-						<img class="rounded-t-lg" src="./assets/images/projects/wealth_guardian.png"
-							alt="Project Image" />
-						<div class="p-5">
-							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-								Wealth Guardian
-							</h5>
-							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-								A straightforward and user-friendly personal finance tracker app built on the Laravel.
-							</p>
-							<div class="mb-4">
-								<span
-									class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">
-									Educational
-								</span>
-								<span
-									class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-red-400 border border-red-400">
-									Laravel
-								</span>
-							</div>
-							<div>
-								<a href="./pages/projects/wealthguardian.html"
-									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-									Learn More
-								</a>
-								<a href="https://github.com/vix-4800/WealthGuardian"
-									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-									GitHub Repository
-									<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-										xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-											stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-									</svg>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<div
-						class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-						<img class="rounded-t-lg" src="./assets/images/projects/sellersphere.png" alt="Project Image" />
-						<div class="p-5">
-							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-								SellerSphere
-							</h5>
-							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-								An account management service powered by the Laravel framework.
-							</p>
-							<div class="mb-4">
-								<span
-									class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">
-									Commercial
-								</span>
-								<span
-									class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-red-400 border border-red-400">
-									Laravel
-								</span>
-							</div>
-
-							<div>
-								<a href="./pages/projects/sellersphere.html"
-									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-									Learn More
-								</a>
-								<a href="https://lk.sellersphere.ru/"
-									class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-									Project Website
-									<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-										xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-											stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-									</svg>
-								</a>
-							</div>
-						</div>
+					<h4
+						class="max-w-3xl py-2 mx-auto text-lg font-bold text-center text-gray-800 md:text-lg dark:text-white">
+						I specialize in building web-applications with a focus on PHP and the Laravel framework.
+					</h4>
+					<div class="flex items-center justify-center mt-4">
+						<a href="#"
+							class="px-4 py-2 my-2 text-gray-800 uppercase bg-transparent border-2 border-gray-800 md:mt-16 dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 dark:text-white hover:bg-gray-800 hover:text-white text-md">
+							CONNECT WITH ME
+						</a>
 					</div>
 				</div>
 			</div>
-		</section>
-
-		<section id="contact">
-
-		</section>
+		</div>
 	</main>
-
-
 
 	<footer class="bg-white shadow dark:bg-gray-900">
 		<div class="w-full max-w-screen-xl mx-auto">
